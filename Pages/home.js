@@ -35,7 +35,9 @@ const home = `
     <main>
         <div class="hero-image">
             <img class="hero-img" src="images/Untitled-2.jpg"/>
-            <div class="hero-content"></div>
+            <div class="hero-content">
+                
+            </div>
         </div>
 
         <div class="info"></div>
