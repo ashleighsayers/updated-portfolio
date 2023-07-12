@@ -1,0 +1,58 @@
+.nav {
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  display: flex;
+  align-items: center;
+}
+.nav .nav-logo {
+  width: 50px;
+  display: flex;
+}
+.nav .nav-content {
+  background-color: bisque;
+  height: 100%;
+  margin: 5px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+.nav .nav-links {
+  flex: 3;
+}
+.nav .nav-links ul li {
+  list-style: none;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.hero-image {
+  height: 100vh;
+  overflow-y: hidden;
+  width: 100%;
+}
+.hero-image .hero-img {
+  height: 100vh;
+  width: 100%;
+}
+.hero-image .hero-content {
+  position: relative;
+}
+
+.info {
+  height: 50vh;
+}
+
+html::-webkit-scrollbar {
+  background: #ededed;
+  width: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #fd99ff;
+}/*# sourceMappingURL=home.css.map */
